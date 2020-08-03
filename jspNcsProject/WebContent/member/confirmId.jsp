@@ -13,9 +13,9 @@
 	}else{
 		var nowUrl = opener.location.href; 
 		console.log(nowUrl);
-		console.log(!nowUrl == 'http://localhost:8080/jnp/member/memberModifyForm.jsp');
-		if(!((nowUrl == 'http://localhost:8080/jnp/member/memberModifyForm.jsp')
-				||(nowUrl =='http://localhost:8080/jnp/member/signupForm.jsp'))){
+		console.log(!nowUrl == 'http://192.168.0.98:8080/jnp/member/memberModifyForm.jsp');
+		if(!((nowUrl == 'http://192.168.0.98:8080/jnp/member/memberModifyForm.jsp')
+				||(nowUrl =='http://192.168.0.98:8080/jnp/member/signupForm.jsp'))){
 			window.location = '../main.jsp';
 		}
 	}
